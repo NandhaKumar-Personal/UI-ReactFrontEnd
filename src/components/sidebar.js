@@ -6,9 +6,14 @@ export const SideBar = () => {
 
   return (
     <div>
-      <div className="w-64 bg-[#ffffff] h-screen text-white border-r-2 border-[#555555] outline-2">
-        <div className="p-5">{/* Add any content here */}</div>
-        <nav className="mt-10">
+      <div className="w-64 bg-[#ffffff] h-screen  text-white border-r-2 border-[#555555] outline-2 ">
+        <div className="p-2 mt-3">
+          <img
+            className="w-full h-12  object-obtain"
+            src="https://gwcdata.ai/assets/Logo-ZfpyJ_J5.svg"
+          />
+        </div>
+        <nav className="mt-5">
           <div className="p-3 mt-3 text-start">
             <h1 className="text-gray-400 uppercase text-start ">Menu</h1>
             <Button
@@ -72,8 +77,6 @@ export const SideBar = () => {
             />
           </div>
         </nav>
-
-        <br />
       </div>
     </div>
   );
